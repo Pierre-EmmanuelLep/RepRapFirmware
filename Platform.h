@@ -116,7 +116,7 @@ const unsigned int numZProbeReadingsAveraged = 8;	// we average this number of r
 
 // AXES
 
-#define AXIS_MAXIMA {230, 200, 200} 			// mm
+#define AXIS_MAXIMA {520, 500, 850} 			// mm
 #define AXIS_MINIMA {0, 0, 0}					// mm
 #define HOME_FEEDRATES {50.0, 50.0, 100.0/60.0}	// mm/sec (dc42 increased Z because we slow down z-homing when approaching the target height)
 
